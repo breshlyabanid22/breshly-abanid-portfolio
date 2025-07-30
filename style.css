@@ -1,0 +1,141 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Londrina Sketch';
+    font-size: 96px;
+    margin: 0;
+}
+h3 {
+    margin: 0;
+    font-family: 'Finger Paint';
+    font-size: 48px;
+    font-weight: 100;
+    line-height: 1;
+    /* color: orange; */
+}
+
+h4 {
+    margin: 0;
+    font-family: 'Finger Paint';
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 1.5;
+}   
+
+h2 {
+    font-family: 'Finger Paint';
+    font-size: 36px;
+
+}
+p {
+    /* font-family: 'Finger Paint'; */
+    font-family: 'Englebert';
+    font-size: 22px;
+    text-align: left;
+    width: 400px;
+}
+.web-developer {
+    color: #DB4437;
+}
+
+.name-bold {
+    font-family: 'Londrina Solid';
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    column-gap: 32px;
+}
+.profile-image {
+    height: 200px;
+    width: auto;
+    display: block;
+    --s: 50px; /* size of the corners */
+    border: 12px solid #000000; 
+    padding: 4px;
+    mask: 
+    conic-gradient(#000 0 0) content-box,
+    conic-gradient(at var(--s) var(--s),#0000 75%,#000 0) 
+    0 0/calc(100% - var(--s)) calc(100% - var(--s));
+
+}
+
+.skills-section {
+    padding-top: 32px;
+    padding-bottom: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 8px dashed black;
+    border-bottom: 8px dashed black;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-direction: column;
+}
+.programming-icons {
+    height: 6rem;
+    width: auto;
+    padding-left: 12px;
+}
+/* .icon-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 800px;
+    column-gap: 32px;
+}    */
+
+.education-section {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 42px;
+    border-bottom: dashed 8px black;
+}
+.timeline-line {
+    border-left: 4px solid black;
+    padding-left: 28px;
+    padding-bottom: 28px;
+}
+.text-year {
+    margin: 0;
+    font-family: 'Finger Paint';
+    font-size: 28px;
+    font-weight: 100;
+    line-height: 1;
+}
+.circle1 {
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    border-radius: 100%;
+    background-color: #000;
+    transform: translate(-214px,-259px);
+}
+.circle2 {
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    border-radius: 100%;
+    background-color: #000;
+    transform: translate(-214px,-34px);
+}
+.circle3{
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    border-radius: 100%;
+    background-color: #000;
+    transform: translate(-214px,208px);
+}
